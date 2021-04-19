@@ -1,0 +1,68 @@
+body{
+	background-image: url(bggugur.jpg);
+	background-size: cover;
+}
+
+.kotaklogin{
+	width: 350px;
+	height: 480px;
+	background-color: black;
+	margin: auto;
+	margin-top: 150px;
+	opacity: 0.7;
+
+}
+
+.kotaklogin .profile{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: salmon;
+	margin: auto;
+	border-radius: 50px;
+	top: -50px;
+}
+
+.kotaklogin h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: blue;
+}
+
+.kotaklogin p{
+	color: white;
+}
+
+.kotaklogin input{
+	height: 25px;
+	width: 305px;
+}
+
+.kotaklogin form{
+	margin-left: 30px;
+}
+
+.kotaklogin .btm{
+	margin-top: 20px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: red;
+	color: white;
+	border-radius: 50px;
+}
+
+.kotaklogin h3 a{
+	text-decoration: none;
+	margin-left: 30px;
+	color: white;
+}
+
+.kotaklogin .profile img{
+	width: 70px;
+	height: 70px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 100px;
+}

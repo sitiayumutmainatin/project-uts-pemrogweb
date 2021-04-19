@@ -1,0 +1,104 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+.awal
+{
+	background-image: url(waktu.jpeg);
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-position: top;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: #000080;
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #808080;
+	border-radius: 3px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: #000080;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+	color: #808080;
+}
+#showcase{
+	text-align: center;
+	color: #fff;
+}
+#showcase h1{
+	margin-top: 120px;
+	font-size: 65px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 5px #000080;
+}
+#showcase h2{
+	margin-top: 15px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 5px #000080;
+}
+
+#showcase p{
+	font-size: 22px;
+}
+.buttonsubs{
+	height: 50px;
+	background-color: #000080;
+	border: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #fff;
+}
+.buttonsubs:hover {
+	color: #808080;
+	border-radius: 3px;
+}
+
+#live .container{
+	margin-left: 50px;
+}
